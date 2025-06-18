@@ -1,18 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Konvator
+# Setup and Usage Instructions
 
-## Getting Started
+## Setup
 
-First, run the development server:
+1. **Clone the repository:**
+   ```sh
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+   or
+   ```sh
+   yarn install
+   ```
+
+3. **Configure environment variables:**
+   - Copy `.env.example` to `.env` and update values as needed.
+
+## Usage
+
+1. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+   or
+   ```sh
+   yarn dev
+   ```
+
+2. **Open your browser and visit:**
+   ```
+   http://localhost:3000
+   ```
+
+3. **Build for production:**
+   ```sh
+   npm run build
+   npm start
+   ```
+   or
+   ```sh
+   yarn build
+   yarn start
+   ```
+
+---
+
+**Note:**  
+Replace `<repository-url>` and `<repository-folder>` with your actual repository details.  
+Update instructions as per your project’s specific requirements.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
